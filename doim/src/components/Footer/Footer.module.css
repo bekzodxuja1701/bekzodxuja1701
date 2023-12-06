@@ -1,0 +1,13 @@
+.footer {
+}
+
+.logo {
+}
+
+.icons {
+  display: flex;
+}
+
+.icons div {
+  background-color: #99baed;
+}

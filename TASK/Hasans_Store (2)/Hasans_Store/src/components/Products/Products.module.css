@@ -1,0 +1,14 @@
+.productsMiddle {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 3rem;
+  padding: 1rem 2rem;
+}
+.products > h2 {
+  font-size: 36.88px;
+  color: #212529;
+  margin: 20px 0px;
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: 500;
+}

@@ -1,0 +1,12 @@
+.affair {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  margin-bottom: 280px;
+}
+
+.boxes {
+  display: flex;
+  justify-content: space-between;
+}

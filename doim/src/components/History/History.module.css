@@ -1,0 +1,23 @@
+.history {
+  display: flex;
+  justify-content: space-between;
+  gap: 150px;
+  margin-bottom: 150px;
+}
+
+.history img {
+  margin-left: -100px;
+}
+
+.historyInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 90px;
+  align-items: start;
+}
+
+.historyInfo div {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}

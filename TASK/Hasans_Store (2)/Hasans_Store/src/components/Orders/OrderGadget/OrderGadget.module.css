@@ -1,0 +1,122 @@
+.gadgetCard {
+    box-shadow: 0 0 2px #252b48;
+    border-radius: 10px;
+    margin-bottom: 1.12rem;
+    padding: 1.58rem;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+}
+
+.counter {
+    display: flex;
+}
+
+.counter>button,
+.counter>span {
+    font-size: 1.8rem;
+    padding: 0.5rem 2rem;
+    color: #9d174d;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #dcd9d9;
+    background-color: #faf9f9;
+    cursor: pointer;
+}
+
+.counter>span {
+    padding: 0 2.2rem;
+    cursor: text;
+}
+
+.phoneImg {
+    width: 16rem;
+    height: 10.4rem;
+    border-radius: 1rem;
+    overflow: hidden;
+    box-shadow: 0 3px #9d174d;
+    margin-bottom: 3rem;
+    transition: all 0.4s ease;
+}
+
+.phoneImg:hover {
+    transform: scale(1.1);
+}
+
+.phoneImg>img {
+    width: 100%;
+    height: 100%;
+}
+
+.title {
+    font-size: 1.6rem;
+    display: flex;
+    align-items: center;
+    gap: 1.3rem;
+    padding: 4rem;
+}
+
+.price {
+    position: absolute;
+    bottom: 1.28rem;
+    right: 1.28rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+}
+
+@media only screen and (max-width:750px) {
+    .gadgetCard {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .box {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 1rem;
+    }
+
+    .title {
+        padding: 0;
+        font-weight: 700;
+        font-size: 1.8rem;
+    }
+
+    .price {
+        position: static;
+        justify-content: end;
+    }
+}
+
+@media only screen and (max-width:540px) {
+    .gadgetCard {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+
+    .box {
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+
+    .title {
+        justify-content: center;
+    }
+
+    .price {
+        justify-content: center;
+    }
+}

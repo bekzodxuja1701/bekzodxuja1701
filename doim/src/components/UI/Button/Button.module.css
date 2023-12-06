@@ -1,0 +1,21 @@
+.btn {
+  border-radius: 2rem;
+  color: var(--white);
+  background-color: var(--btn-color);
+  border: none;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 30.12px;
+  letter-spacing: 0.6px;
+  cursor: pointer;
+}
+
+.btnP {
+  padding: 2.3rem 3.25rem;
+}
+.btnP2 {
+  padding: 2.3rem 4.1rem;
+}
+.btnP3 {
+  padding: 2.3rem 5.6rem;
+}

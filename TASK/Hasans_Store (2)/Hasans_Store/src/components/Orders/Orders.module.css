@@ -1,0 +1,26 @@
+.orderCard {
+    padding: 10rem;
+    padding-top: 9rem;
+}
+
+.orderCard>h2 {
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: inherit;
+    font-size: 4rem;
+    margin-bottom: 2rem;
+}
+
+.pp,
+.info {
+    font-size: 3.3rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.info {
+    margin-top: 20rem;
+    text-align: center;
+}

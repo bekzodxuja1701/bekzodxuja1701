@@ -1,0 +1,23 @@
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px auto 230px;
+}
+
+.heroInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+  align-items: start;
+}
+
+.heroInfo div {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.heroImg {
+  margin-right: -180px;
+}

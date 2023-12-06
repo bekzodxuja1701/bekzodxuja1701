@@ -1,0 +1,18 @@
+.h1 {
+  color: var(--h-color1);
+
+  font-size: 75px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 133.6%;
+}
+
+.h2 {
+  color: var(--h-color1);
+  
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150.6%; /* 105.42px */
+  letter-spacing: 2.1px;
+}

@@ -1,0 +1,41 @@
+.productsMiddleInfo {
+  border: 2px solid #948989;
+  border-radius: 15px;
+  padding: 20px 50px;
+}
+.productsMiddleInfo > img {
+  width: 176px;
+  height: 112px;
+  border-radius: 10px;
+}
+h3 {
+  color: #212529;
+  font-size: 17.6px;
+  margin: 0px 0px 8px;
+  font-family: "Nova Square", sans-serif;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+.box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.box > p {
+  color: #212529;
+  font-size: 28.8px;
+  font-family: sans-serif;
+}
+.box > img {
+  width: 29.7px;
+  height: 29.7px;
+  cursor: pointer;
+}
+.productsMiddlebottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 45px;
+}

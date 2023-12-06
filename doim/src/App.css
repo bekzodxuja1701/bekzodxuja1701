@@ -1,0 +1,43 @@
+@font-face {
+  font-family: Catamaran;
+  src: url("./assets/fonts/Catamaran-Regular.ttf");
+}
+
+/* ROOT */
+:root {
+  --bg-color: #a3c1ef;
+  --btn-color: #99baed;
+  --fill-color: #d3e5ff;
+  --h-color2: #fbb400;
+  --h-color1: #163561;
+  --p-color: #153461;
+  --card-bg-color: #e5ecfe;
+  --white: #fff;
+}
+
+/* BASIC STYLE */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Catamaran;
+}
+
+html {
+  font-size: 62.5%;
+}
+.container {
+  max-width: 153.7rem;
+  margin: 0 auto;
+}
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
